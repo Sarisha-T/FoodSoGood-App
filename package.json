@@ -1,0 +1,27 @@
+{
+  "name": "food-so-good",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd server && nodemon server.js",
+    "start": "cd client && npm start"
+  },
+  "author": "Sarisha Thankachan",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-regular-svg-icons": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@redux-devtools/extension": "^3.2.3",
+    "aos": "^2.3.4",
+    "express": "^4.18.1",
+    "formidable": "^2.1.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.20",
+    "react-icons": "^4.7.1",
+    "react-stripe-checkout": "^2.6.3",
+    "react-switch": "^7.0.0"
+  }
+}
