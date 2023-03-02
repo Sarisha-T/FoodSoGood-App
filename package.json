@@ -1,5 +1,4 @@
 {
-  "homepage":"http://Sarisha-T.github.io/FoodSoGood-App",
   "name": "food-so-good",
   "version": "1.0.0",
   "description": "",
@@ -7,8 +6,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cd server && nodemon server.js",
     "start": "cd client && npm start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "build": "react-scripts build"
   },
   "author": "Sarisha Thankachan",
