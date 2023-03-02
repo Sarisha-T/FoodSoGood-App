@@ -1,11 +1,16 @@
 {
+  "homepage":"http://Sarisha-T.github.io/FoodSoGood-App",
   "name": "food-so-good",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cd server && nodemon server.js",
-    "start": "cd client && npm start"
+    "start": "cd client && npm start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "build": "react-scripts build"
+
   },
   "author": "Sarisha Thankachan",
   "license": "ISC",
@@ -23,5 +28,8 @@
     "react-icons": "^4.7.1",
     "react-stripe-checkout": "^2.6.3",
     "react-switch": "^7.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
