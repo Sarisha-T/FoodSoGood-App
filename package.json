@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cd server && nodemon server.js",
-    "start": "cd client && npm start"
+    "start": "cd client && npm start",
+    "build": "react-scripts build"
   },
   "author": "Sarisha Thankachan",
   "license": "ISC",
